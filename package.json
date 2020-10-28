@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node index.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/nicolas-camacho/another-react-boilerplate/issues"
   },
-  "homepage": "https://github.com/nicolas-camacho/another-react-boilerplate#readme"
+  "homepage": "https://github.com/nicolas-camacho/another-react-boilerplate#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1"
+  }
 }

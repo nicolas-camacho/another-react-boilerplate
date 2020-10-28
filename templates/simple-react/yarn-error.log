@@ -1,0 +1,31 @@
+Arguments: 
+  /Users/nicolascamacho/.nvm/versions/node/v14.8.0/bin/node /Users/nicolascamacho/.nvm/versions/node/v14.8.0/bin/yarn install inquirer
+
+PATH: 
+  /Users/nicolascamacho/.rvm/gems/ruby-2.5.3/bin:/Users/nicolascamacho/.rvm/gems/ruby-2.5.3@global/bin:/Users/nicolascamacho/.rvm/rubies/ruby-2.5.3/bin:/Users/nicolascamacho/.nvm/versions/node/v14.8.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/nicolascamacho/.rvm/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/nicolascamacho/Documents/another-react-boilerplate/templates/simple-react/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /Users/nicolascamacho/.nvm/versions/node/v14.8.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/nicolascamacho/.nvm/versions/node/v14.8.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/nicolascamacho/.nvm/versions/node/v14.8.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
