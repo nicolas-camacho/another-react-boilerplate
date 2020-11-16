@@ -1,11 +1,15 @@
 {
-  "name": "another-react-boilerplate",
+  "name": "another-react-app-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Boilerplate generator for simples react applications",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js ",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node main.js ",
+    "build": "babel ./main.js -o index.js",
+    "prepare": "npm run build"
+  },
+  "bin": {
+    "arag": "./index.js"
   },
   "repository": {
     "type": "git",
